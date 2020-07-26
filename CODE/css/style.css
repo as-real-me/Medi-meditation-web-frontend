@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    padding: 0 5%;
+    /* margin: 0 5%; */
+}
+
+nav{
+    margin-top: 2%;
+}
+
+/* Logo */
+.logo{
+    display: inline-block;
+    width: 15%;
+}
+.logo img{
+    width: 40%;
+}
+
+/* Menu */
+.menu{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding-right: 30px;
+    color: #1B0A42;
+}
+.menu a:hover{
+    color: #4F56F1;
+    font-weight: 700;
+}
+
+/* Account */
+.user-account{
+    display: inline-block;
+    float: right;
+    overflow: auto;
+}
+.user-account button{
+    /* border-radius: 6px;
+    background: #4F56F1;
+    color: #ffffff;
+    border-style: none; */
+}
+
+#sign-in-btn{
+    color: #1B0A42;
+    background: #ffffff;
+    border-style: none;
+    font-family: inherit;
+    font-size: 0.8rem;
+    margin-right: 15px;
+}
+#sign-in-btn:hover{
+    color: #4F56F1;
+    font-weight: 700;
+}
+
+#sign-up-btn{
+    background: #4F56F1;
+    color: #ffffff;
+    border-style: none;
+    padding: 15px 25px;
+    border-radius: 6px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+
+}
