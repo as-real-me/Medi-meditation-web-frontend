@@ -119,3 +119,7 @@ nav{
     font-size: 0.7rem;
     letter-spacing: 0.1em;
 }
+
+.btn-style:hover{
+    background: #4189FF;
+}
